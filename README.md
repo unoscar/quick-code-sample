@@ -10,3 +10,8 @@ Clone/Fork this repository and:
 
 - install the packages `yarn install | npm install`
 - run the demo command and this will build your storybook locally `yarn demo`
+
+## NOTES
+
+- If you want to test the menu ability to relocate based on viewport fit, zoom 2 to 3 times on the storybook and scroll when the menu is open
+![](https://github.com/unoscar/quick-code-sample/assets/Animation.gif)
