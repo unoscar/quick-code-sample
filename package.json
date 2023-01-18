@@ -1,0 +1,51 @@
+{
+  "name": "quick-code-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:unoscar/quick-code-sample.git",
+  "license": "MIT",
+  "dependencies": {
+    "@floating-ui/react": "^0.15.1",
+    "@floating-ui/react-dom": "^1.0.0",
+    "@headlessui/react": "^1.7.3",
+    "@icon-park/react": "^1.4.2",
+    "@radix-ui/react-icons": "^1.1.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^7.5.3",
+    "next": "^12.3.4",
+    "react-merge-refs": "^2.0.1",
+    "react-textarea-autosize": "^8.3.4",
+    "tailwind-merge": "^1.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/react": "^6.5.12",
+    "@storybook/react-docgen-typescript-plugin": "^1.0.1",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.12",
+    "babel-loader": "^8.2.5",
+    "config": "*",
+    "headless": "*",
+    "postcss": "^8.4.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^6.5.12",
+    "storybook-addon-turbo-build": "^1.1.0",
+    "tailwindcss": "^3.1.8",
+    "tsconfig": "*",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "build-storybook",
+    "demo": "start-storybook -p 6006"
+  }
+}
